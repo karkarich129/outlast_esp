@@ -1,0 +1,65 @@
+# =========================
+# Visual Studio / MSBuild
+# =========================
+.vs/
+bin/
+build/
+x64/
+x86/
+Debug/
+Release/
+[Bb]in/
+[Oo]bj/
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.log
+*.tmp
+
+# Visual Studio user files & caches
+*.user
+*.userosv
+*.suo
+*.userprefs
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+
+# =========================
+# Compiled binaries
+# =========================
+*.dll
+*.exe
+*.lib
+*.exp
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
